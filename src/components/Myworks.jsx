@@ -11,6 +11,7 @@ import img8 from "../assets/images/img8.png";
 import img9 from "../assets/images/img9.png";
 import img10 from "../assets/images/img10.jpeg";
 import img11 from "../assets/images/img11.png";
+import img12 from "../assets/images/img12.jpg";
 const Myworks = () => {
   const [tab, setActiveTab] = useState("tab1");
   function handleTab1(tabs) {
@@ -634,6 +635,56 @@ const Myworks = () => {
                       </p>
                       <p className="text-black  text-xl font-poppins underline">
                         (Date of submission : 21-3-2024)
+                      </p>
+                    </div>
+                    <div>
+                      <p className="text-black text-xl font-poppins font-medium text-nowrap">
+                        Github-Link :{" "}
+                        <span className="text-black hover:text-blue-700">
+                          <a
+                            href="https://github.com/Roshni-Sahani/next-demo"
+                            target="_blank "
+                            className="underline"
+                          >
+                            https://github.com/Roshni-Sahani/next-demo
+                          </a>
+                        </span>
+                      </p>
+                      <p className="text-black text-xl font-poppins font-medium">
+                        Live-Link :{" "}
+                        <span className="text-black hover:text-blue-700">
+                          <a
+                            href="https://next-demo-rho-one.vercel.app/"
+                            target="_blank"
+                            className="underline"
+                          >
+                            https://next-demo-rho-one.vercel.app/
+                          </a>
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="flex flex-wrap items-center flex-row -mx-3 mt-3">
+                  <div className="w-2/5 px-3">
+                    <div className="flex">
+                      <p className="text-black pr-1 text-2xl font-poppins pb-3">
+                        4.
+                      </p>
+                      <img
+                        src={img12}
+                        alt="1"
+                        className="w-[300px] h-[200px]  rounded-xl"
+                      />
+                    </div>
+                  </div>
+                  <div className="w-3/5 px-3">
+                    <div className="flex pb-3 items-center">
+                      <p className="text-black font-bold text-2xl font-poppins text-nowrap">
+                        WORKSHEET
+                      </p>
+                      <p className="text-black  text-xl font-poppins underline">
+                        (Date of submission : 27-3-2024)
                       </p>
                     </div>
                     <div>
