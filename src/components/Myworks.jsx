@@ -13,6 +13,7 @@ import img10 from "../assets/images/img10.jpeg";
 import img11 from "../assets/images/img11.png";
 import img12 from "../assets/images/img12.jpg";
 import img13 from "../assets/images/img13.jpg";
+import hero from "../assets/images/hero.png";
 const Myworks = () => {
   const [tab, setActiveTab] = useState("tab1");
   function handleTab1(tabs) {
@@ -50,7 +51,10 @@ const Myworks = () => {
               >
                 MARCH
               </button>
-              <button className="bg-black rounded-[20px] px-9 py-2 text-white font-normal text-2xl w-[200px] mt-5">
+              <button
+                onClick={() => handleTab1("tab4")}
+                className="bg-black rounded-[20px] px-9 py-2 text-white font-normal text-2xl w-[200px] mt-5"
+              >
                 APRIL
               </button>
             </div>
@@ -811,6 +815,60 @@ const Myworks = () => {
                             className="underline"
                           >
                             https://worksheet-seven.vercel.app/
+                          </a>
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            )}
+            {tab === "tab4" && (
+              <div>
+                <div className="flex flex-wrap items-center flex-row -mx-3 mt-3">
+                  <div className="w-2/5 px-3">
+                    <div className="flex">
+                      <p className="text-black pr-1 text-2xl font-poppins pb-3">
+                        1.
+                      </p>
+                      <img
+                        src={hero}
+                        alt="1"
+                        className="w-[300px] h-[200px]  rounded-xl"
+                      />
+                    </div>
+                  </div>
+                  <div className="w-3/5 px-3">
+                    <div className="flex pb-3 items-center">
+                      <p className="text-black font-bold text-2xl font-poppins text-nowrap">
+                        NOBLE-MIND
+                      </p>
+                      <p className="text-black  text-xl font-poppins underline">
+                        (Date of submission : 5-4-2024)
+                      </p>
+                    </div>
+                    <div>
+                      <p className="text-black text-xl font-poppins font-medium text-nowrap">
+                        Github-Link :{" "}
+                        <span className="text-black hover:text-blue-700">
+                          <a
+                            href="https://github.com/Roshni-Sahani/noble-mind"
+                            target="blank"
+                            className="underline"
+                          >
+                            https://github.com/Roshni-Sahani/noble-mind
+                          </a>
+                        </span>
+                      </p>
+                      <p className="text-black text-xl font-poppins font-medium">
+                        Live-Link :{" "}
+                        <span className="text-black hover:text-blue-700">
+                          <a
+                            href="https://noble-mind-gamma.vercel.app/"
+                            target="blank"
+                            className="underline"
+                          >
+                            https://noble-mind-gamma.vercel.app/
                           </a>
                         </span>
                       </p>
