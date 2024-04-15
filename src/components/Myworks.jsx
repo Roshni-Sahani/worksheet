@@ -14,6 +14,7 @@ import img11 from "../assets/images/img11.png";
 import img12 from "../assets/images/img12.jpg";
 import img13 from "../assets/images/img13.jpg";
 import hero from "../assets/images/hero.png";
+import emailimg from "../assets/images/emailimg.png";
 const Myworks = () => {
   const [tab, setActiveTab] = useState("tab1");
   function handleTab1(tabs) {
@@ -872,6 +873,58 @@ const Myworks = () => {
                           </a>
                         </span>
                       </p>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div className="flex flex-wrap items-center flex-row -mx-3 mt-3">
+                    <div className="w-2/5 px-3">
+                      <div className="flex">
+                        <p className="text-black pr-1 text-2xl font-poppins pb-3">
+                          2.
+                        </p>
+                        <img
+                          src={emailimg}
+                          alt="emailimg"
+                          className="w-[300px] h-[200px]  rounded-xl"
+                        />
+                      </div>
+                    </div>
+                    <div className="w-3/5 px-3">
+                      <div className="flex pb-3 items-center">
+                        <p className="text-black font-bold text-2xl font-poppins text-nowrap">
+                          EMAIL_JS
+                        </p>
+                        <p className="text-black  text-xl font-poppins underline">
+                          (Date of submission : 15-4-2024)
+                        </p>
+                      </div>
+                      <div>
+                        <p className="text-black text-xl font-poppins font-medium text-nowrap">
+                          Github-Link :{" "}
+                          <span className="text-black hover:text-blue-700">
+                            <a
+                              href="https://github.com/Roshni-Sahani/email"
+                              target="blank"
+                              className="underline"
+                            >
+                              https://github.com/Roshni-Sahani/email
+                            </a>
+                          </span>
+                        </p>
+                        <p className="text-black text-xl font-poppins font-medium">
+                          Live-Link :{" "}
+                          <span className="text-black hover:text-blue-700">
+                            <a
+                              href="https://email-vert-three.vercel.app/"
+                              target="blank"
+                              className="underline"
+                            >
+                              https://email-vert-three.vercel.app/
+                            </a>
+                          </span>
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
